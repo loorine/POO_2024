@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.17">
+  <diagram name="Page-1" id="8RdupW8L9lF3wMz6WYZO">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DQC11_SW_SbytGF9cZCf-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="223" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-5" value="Joueur" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="403" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-6" value="" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="123" width="580" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-7" value="Jeu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="202" y="99" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-8" value="Démarrer une nouvelle partie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="193" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="DQC11_SW_SbytGF9cZCf-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-9" value="Cliquer sur une case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="293" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" target="DQC11_SW_SbytGF9cZCf-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="423" as="sourcePoint" />
+            <mxPoint x="170" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DQC11_SW_SbytGF9cZCf-10" target="DQC11_SW_SbytGF9cZCf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-10" value="Cliquer sur une case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="393" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="223" as="sourcePoint" />
+            <mxPoint x="180" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="DQC11_SW_SbytGF9cZCf-17" target="DQC11_SW_SbytGF9cZCf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-17" value="Perdre la partie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="243" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="DQC11_SW_SbytGF9cZCf-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-18" value="Gagner la partie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="323" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-19" value="Gagner la partie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="403" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-26" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="418" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-32" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=10;" vertex="1" parent="1">
+          <mxGeometry x="418" y="335" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-33" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="431" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQC11_SW_SbytGF9cZCf-34" value="Diagramme de cas d&#39;utilisation" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="40" width="80" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
